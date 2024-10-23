@@ -1,0 +1,95 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+main {
+    background-color: white;
+    width: 75%;
+    margin: auto;
+}
+
+#container-foto-container-texto {
+    display: flex;
+}
+
+#container-texto {
+    display: block;
+}
+
+#foto-proprietario {
+    margin-right: 5px;
+}
+
+.paragrafo-sobre-mim {
+    margin-left: 5px;
+}
+
+#lista-dupla {
+    display: flex;
+}
+
+#lista-unica {
+    display: none;
+}
+
+#imagem-programa-produtos-em-estoque {
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 1136px) {
+    main {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 952px) {
+    main {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 904px) {
+    #container-foto-container-texto {
+        display: block;
+    }
+
+    #foto-proprietario {
+        margin-right: 0px;
+        display: block;
+        margin: auto;
+    }
+    
+    .paragrafo-sobre-mim {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 891px) {
+    #imagem-programa-produtos-em-estoque {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #lista-dupla {
+        display: none;
+    }
+
+    #lista-unica {
+        display: block;
+    }
+}
